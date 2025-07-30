@@ -33,6 +33,7 @@
             comboBox1 = new ComboBox();
             textBox1 = new TextBox();
             label1 = new Label();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -86,10 +87,20 @@
             label1.TabIndex = 4;
             label1.Text = "Source";
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(16, 349);
+            label2.Name = "label2";
+            label2.Size = new Size(69, 15);
+            label2.TabIndex = 0;
+            label2.Text = "Konnichiwa";
+            // 
             // barcodeScanner
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(textBox1);
             Controls.Add(comboBox1);
@@ -97,7 +108,7 @@
             Controls.Add(pictureBox1);
             Margin = new Padding(3, 2, 3, 2);
             Name = "barcodeScanner";
-            Size = new Size(337, 355);
+            Size = new Size(337, 374);
             Load += barcodeScanner_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -111,5 +122,6 @@
         private ComboBox comboBox1;
         private TextBox textBox1;
         private Label label1;
+        private Label label2;
     }
 }
