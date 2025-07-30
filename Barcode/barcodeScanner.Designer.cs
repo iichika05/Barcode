@@ -38,7 +38,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.BackColor = Color.DarkGray;
+            pictureBox1.BackColor = Color.Orange;
             pictureBox1.Location = new Point(16, 39);
             pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
