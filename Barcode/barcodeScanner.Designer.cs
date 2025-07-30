@@ -34,6 +34,7 @@
             textBox1 = new TextBox();
             label1 = new Label();
             label2 = new Label();
+            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -96,10 +97,20 @@
             label2.TabIndex = 0;
             label2.Text = "Konnichiwa";
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(85, 349);
+            label3.Name = "label3";
+            label3.Size = new Size(69, 15);
+            label3.TabIndex = 5;
+            label3.Text = "Konnichiwa";
+            // 
             // barcodeScanner
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(textBox1);
@@ -123,5 +134,6 @@
         private TextBox textBox1;
         private Label label1;
         private Label label2;
+        private Label label3;
     }
 }
